@@ -1,0 +1,14 @@
+{
+  "name": "kickroom-commerce",
+  "private": true,
+  "version": "1.0.0",
+  "description": "A full-stack MERN demo storefront",
+  "scripts": {
+    "dev": "concurrently -k -n API,WEB -c yellow,cyan \"npm run dev --prefix backend\" \"npm run dev --prefix frontend\"",
+    "build": "npm run build --prefix frontend",
+    "seed": "npm run seed --prefix backend"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.2"
+  }
+}

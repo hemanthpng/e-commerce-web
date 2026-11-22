@@ -1,0 +1,15 @@
+@media (max-width: 600px) {
+  .main-nav.mobile-open {
+    display: flex;
+    position: absolute;
+    top: 65px;
+    left: 0;
+    right: 0;
+    margin: 0;
+    padding: 17px 5%;
+    gap: 24px;
+    background: var(--cream);
+    border-bottom: 1px solid var(--line);
+    box-shadow: 0 8px 12px #292b2510;
+  }
+}
